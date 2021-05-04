@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+   body:before{
+    content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(https://bestwishesfor.com/wp-content/uploads/2020/04/Happy-Birthday-Wishes-Gif-Images.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	 -webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	filter: blur(10px); 
+}  
+.glow span{
+     font-size: 40px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 25px solid rgba(255,255,255,0.4);
+    margin: 0 -2.5;
+    animation: animate 1s linear infinite; 
+    background: black
+ }
+ .glow2 {
+       position: absolute; 
+	top: 50%;
+	left: 50%; 
+	transform: translate(-50%, -50%);
+	width: 440px;
+	height: 450px;
+	padding: 80px 40px;
+	background: rgba(0, 0, 0, 0.5); 
+ }
+
+ .gif{
+     width: 100px;
+     height: 50px;
+     justify-content: center;
+     margin-left: 150px;
+ }
+
+ .heading{
+    color: red;
+    
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    grid-auto-flow: row;
+ }
+
+ @keyframes animate {
+     0%{
+         color: #f00;
+         box-shadow: 0,2px,10px rgba(255,0,0,1);
+         border: 2px solid rgba(255,0,0,1);
+     }
+     60%{
+         color: #f00;
+         box-shadow: 0,2px,10px rgba(0,255,0,1);
+         border: 2px solid rgba(0,255,0,1);
+     }
+      100%{
+         color: #f00;
+         box-shadow: 0,2px,10px rgba(0,255,0,1);
+         border: 2px solid rgba(0,255,0,1);
+     } 
+ }

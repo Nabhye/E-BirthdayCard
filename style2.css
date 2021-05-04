@@ -1,0 +1,134 @@
+body { 
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+     body:before {
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(https://i0.wp.com/www.eventstodayz.com/wp-content/uploads/2017/10/happy-birthday-animated-gif-image.gif?fit=600%2C315&ssl=1);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	 -webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	filter: blur(10px); 
+}  
+ .contact-form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 350px;
+	padding: 80px 40px;
+	background: rgba(0, 0, 0, 0.5);
+} 
+.avatar {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	top: calc(-80px/2);
+	left: 190px;
+}
+.contact-form h2 {
+	margin: 0;
+	padding: 0 0 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.contact-form p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.contact-form input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+ .contact-form input[type=name], .contact-form input[type=Text] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+} 
+.contact-form input[type=submit] {
+	height: 30px;
+	color: #fff;
+	font-size: 15px;
+	background: red;
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	margin-top: 15%;
+}
+.contact-form input[type=submit]:hover{
+	background: green;
+}
+.contact-form a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+input[type=checkbox] {
+	width: 20%;
+} 
+
+
+ /* .greetings{
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 50px;
+    text-decoration: underline;
+} */
+/*.button{
+     /* color: green; 
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.2);
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+     background-color: red; 
+     border-radius: 100px;   
+     justify-content: center;
+    margin-top: center;
+    margin-left: 480px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-style: italic;
+    width: 180px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: black;
+    line-height: 100px;
+    text-align: center;
+    background: lightgreen;
+    touch-action: manipulation; 
+    cursor: pointer;
+}
+.button:hover{
+    background: green;
+} */
